@@ -1,0 +1,258 @@
+.abt-journal {
+  width: 100%;
+  background: var(--light-brown-bg);
+  display: flex;
+  align-items: center;
+  padding: var(--section-padding);
+}
+
+
+/* SMALL LABEL */
+
+.abt-label{
+  display: inline-block;
+  color: var(--gold-color);
+  font-size: var(--label-text);
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* MAIN TITLE */
+
+.abt-title{
+  font-size: var(--hero-title);
+  line-height: 0.95;
+  font-weight: 700;
+  color: var(--navblue);
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+
+.vm-title{
+  margin-top: 0.9rem;
+  font-size: 1.4rem !important;
+}
+
+/* DESCRIPTION */
+
+.abt-text{
+  max-width: 760px;
+  font-size: var(--primary-font-size);
+  line-height: 1.7;
+  color: var(--grey-color);
+  font-weight: 400;
+}
+
+.intro_section {
+  background: var(--light-background);
+  padding: var(--section-padding);
+}
+
+.intro_container {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--lg-gap);
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+
+.intro_left {
+  flex: 1;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.intro_left h2 {
+  font-size: var(--section-title-size);
+  color: var(--navblue);
+  letter-spacing: 2px;
+}
+
+.intro_left p {
+  font-size: var(--primary-font-size);
+  line-height: 1.9;
+  color: var(--grey-color);
+}
+
+/* RIGHT SIDE */
+
+.intro_right {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* BLUE CARD */
+
+.glance_card {
+  background: var(--navblue);
+  border-radius: 18px;
+  padding: 34px 28px;
+}
+
+.glance_label {
+  display: inline-block;
+  color: var(--gold-color);
+  font-size: var(--label-text);
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: var(--title-mb-gap);
+}
+
+.glance_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.no_border {
+  border-bottom: none;
+}
+
+.glance_item p {
+  color: var(--light-grey);
+  font-size: var(--primary-font-size);
+}
+
+.glance_item h4 {
+  color: var(--white-color);
+  font-size: var(--primary-font-size);
+  letter-spacing: 1px;
+}
+
+/* QUOTE CARD */
+.qt-card-text{
+    margin-top: 0.6rem;
+    display: block;
+    color: var(--navblue);
+}
+
+.vm-wrapper{
+    margin-top: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #c58c18;
+  font-size: 20px;
+  line-height: 1;
+}
+.vm-cards{
+  width: 100% !important;
+}
+
+.card p {
+  font-size: var(--card-text-size);
+  line-height: 1.72;
+}
+
+.aims-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.aims-intro-text{
+    margin: 1rem 0;
+}
+.scope-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.last-p{
+    margin-top: 1rem;
+}
+
+.page-wrapper {
+ margin-top: 1rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+
+strong {
+  font-weight: 700;
+  color: #0f2344;
+}
+
+/* Ownership section spacing */
+.ownership-section {
+  margin-top: 24px;
+}
+.ownership-section p{
+  margin-top: 15px;
+}
+
+.timeline-container {
+  max-width: 800px;
+  color: var(--text);
+}
+
+.timeline-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+.timeline-header h2 {
+  font-size: var(--section-title-size);
+  font-weight: 700;
+  margin: 0;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin: 8px 0 20px;
+  font-size: var(--primary-font-size);
+}
+
+.timeline-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ece9e3c4;
+  margin-bottom: 1rem;
+}
+
+.timeline-row:last-child {
+  border-bottom: none;
+   margin-bottom: -0.5rem;
+}
+
+.label {
+  font-size: var(--primary-font-size);
+}
+
+.value {
+  font-weight: 500;
+  color: var(--navblue);
+}
+
+.footnote {
+  margin-top: 12px;
+  font-size: var(--primary-font-size);
+  color: var(--grey-color);
+}

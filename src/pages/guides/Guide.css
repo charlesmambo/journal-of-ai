@@ -1,0 +1,164 @@
+.guides-section {
+  background: var(--light-brown-bg);
+  padding: var(--section-padding);
+}
+
+.guides-title {
+  font-size: var(--hero-title);
+  line-height: 1;
+  color: var(--navblue);
+  margin-bottom: var(--title-mb-gap);
+  margin: 1.2rem 0;
+}
+
+.guides-description {
+  font-size: var(--primary-font-size);
+  color: var(--grey-color);
+}
+
+.guides-wrapper {
+  background: var(--light-background);
+  padding: var(--section-padding);
+}
+
+/* Tabs */
+
+.tabs-container {
+  width: 100%;
+  background: var(--light-brown-bg);
+  border-radius: 12px;
+  padding: 6px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 45px;
+}
+
+.tab {
+  flex: 1;
+  height: 50px;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: var(--primary-font-size);
+  font-weight: 700;
+  color: var(--grey-color);
+  font-family: "Fraunces", serif; 
+
+  transition: 0.3s ease;
+}
+
+.tab.active {
+  background: white;
+  color: var(--navblue);
+}
+
+.tab:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Content */
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem
+}
+
+.guides-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.guides-list li {
+  position: relative;
+  font-size: var(--primary-font-size);
+  color: var(--grey-color);
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.g-icon{
+    color: var(--gold-color);
+}
+
+.guideline-card li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--gold-color);
+  border-radius: 50%;
+
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+.policies-page {
+  padding: var(--section-padding);
+  background-color: var(--light-background);
+}
+
+
+.policies-heading {
+  font-size: var(--section-title-size);
+  line-height: 1.1;
+  margin: 1.2rem 0;
+}
+
+.guides-accordion-item {
+  border-bottom: 1px solid #d5d8df;
+}
+
+.accordion-icon {
+  font-size: var(--icon-size);
+  color: var(--navblue);
+  line-height: 1;
+}
+
+.guides-accordion {
+  width: 100%;
+  display: block;
+}
+.guides-accordion-item {
+  border-bottom: 1px solid #d5d8df;
+  display: block;
+}
+
+.guides-accordion-header {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 22px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+  color: var(--navblue);
+  font-size: var(--primary-font-size);
+  font-weight: 700;
+  text-align: left;
+ 
+}
+.guides-accordion-header-title{
+ font-family: "Fraunces", serif !important;
+}
+
+.guides-accordion-content {
+  padding: 0 0 24px 0;
+  height: auto;
+  overflow: visible;
+}
+
+.guides-accordion-content p {
+ margin-top:-0.4rem;
+  font-size: var(--primary-font-size);
+  color: var(--grey-color);
+  line-height: 1.8;
+  white-space: normal;
+}

@@ -1,0 +1,93 @@
+.navbar {
+  width: 100%;
+  background-color: #f5f6f7;
+  padding: var(--navbar-padding);
+}
+
+/* Container */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #1e2a44;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  text-decoration: none !important;
+}
+
+.logo-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--navblue);
+  text-decoration: none !important;
+  font-family: "Fraunces", serif;
+}
+
+.logo-subtitle {
+  font-size: 13px;
+  color: var(--grey-color);
+  letter-spacing: 1px;
+  margin-top: 0.2rem;
+  text-decoration: none !important;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--grey-color);
+  transition: color 0.2s ease;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: var(--navblue);
+}
+
+.nav-links .active {
+  color: var(--navblue);
+  font-weight: 500;
+}
+
+/* Button */
+.submit-btn {
+  background-color: #1e2a44;
+  color: var(--white-color);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #162033;
+}
