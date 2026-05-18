@@ -1,0 +1,117 @@
+.ed-hero {
+  background: var(--light-brown-bg);
+  padding: var(--section-padding);
+}
+
+/* Main title */
+.ed-container h2 {
+  font-size: var(--hero-title);
+  line-height: 1.1;
+  margin: 0.5rem 0;
+}
+.ed-description{
+    font-size: var(--primary-font-size);
+    color: var(--grey-color);
+}
+
+.team-section {
+  background: var(--light-background);
+ padding: var(--section-padding);
+}
+
+/* SECTION HEADER */
+.tm-header {
+  margin-bottom: 20px;
+}
+
+.tm-header h2 {
+  font-size: var(--section-title-size);
+  margin: 6px 0 20px;
+}
+
+.mt {
+  margin-top: 60px;
+}
+
+/* CHIEF CARD */
+.chief-card {
+  display: flex;
+  gap: 24px;
+  background: var(--navblue);
+  color: var(--white-color);
+  padding: 30px;
+  border-radius: 12px;
+  align-items:center;
+}
+
+.chief-content h3 {
+  font-size:var(--section-title-size);
+  margin-bottom: 0.6rem;
+  color: var(--white-color);
+}
+
+.chief-text {
+  color: var(--gold-color);
+  margin: 0.9rem 0 !important;
+  display: block;
+  font-size: var(--primary-font-size);
+}
+
+.meta {
+  font-size: var(--primary-font-size);
+  opacity: 0.85;
+  margin: 6px 0 12px;
+}
+
+.tm-description{
+  font-size: var(--primary-font-size);
+  line-height: 1.6;
+  color: var(--greyish-color);
+  font-weight: 300 !important; 
+}
+
+/* AVATAR */
+.ch-avatar{
+  width: 48px;
+  height: 48px;
+  background: var(--gold-color);
+  color: var(--navblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+.ch-avatar.large {
+  min-width: 70px;
+  min-height: 70px;
+  font-size: 20px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.tm-role{
+  font-size: var(--primary-font-size);
+  color: var(--gold-color);
+  display: block;
+  margin-bottom: 6px;
+}
+.tm-sub-title{
+    color: var(--navblue);
+    margin: 0.6rem 0;
+    font-size: var(--h4-size);
+    margin-top: 0.9rem;
+}
+.tm-footnote{
+    margin-top: 1rem;
+    color: var(--grey-color);
+}
+.edt-card{
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -201,12 +201,15 @@
   font-size: 18px;
   margin-bottom: 10px;
 }
+.why-this{
+  margin-top: 0.5rem;
+}
 
 /* Description */
 .card p {
   font-size: var(--card-text-size);
   color: var(--grey-color);
-  line-height: 1.5;
+  margin-bottom: -0.3rem;
 }
 .journal-section {
   background: var(--light-brown-bg);
@@ -305,9 +308,9 @@
 
 .label {
   color: var(--gold-color);
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .articles-header h2 {
@@ -407,7 +410,7 @@
 .main-heading {
   font-size: var(--section-title-size);
   line-height: 1.05;
-  color: #16264f;
+  color: var(--navblue);
   margin-bottom: var(--title-mb-gap);
 }
 

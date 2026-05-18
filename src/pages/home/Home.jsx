@@ -242,7 +242,7 @@ const pcards = [
         {articles.map((item, index) => (
           <div className="card" key={index}>
             <p className="category">{item.category}</p>
-            <h3>{item.title}</h3>
+            <h3 className='why-this'>{item.title}</h3>
             <p className="desc">{item.description}</p>
 
             <div className="card-footer">

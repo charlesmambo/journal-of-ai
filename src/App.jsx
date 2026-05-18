@@ -7,6 +7,8 @@ import About from './pages/about/About'
 import Archive from './pages/archive/Archive'
 import Subs from './pages/submission/Subs'
 import Guide from './pages/guides/Guide'
+import Ed from './pages/ed/Ed'
+import Contact from './pages/contact/Contact'
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
         <Route path="/archive" element={<Archive />} />
         <Route path="/submissions" element={<Subs />} />
         <Route path="/guidelines" element={<Guide />} />
+        <Route path="/editorial-board" element={<Ed />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />
