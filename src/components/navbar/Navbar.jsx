@@ -47,7 +47,9 @@ const Navbar = () => {
         </nav>
 
         {/* CTA Button */}
+        <NavLink to="/submissions">
         <button className="submit-btn">Submit Paper</button>
+        </NavLink>
 
       </div>
     </div>

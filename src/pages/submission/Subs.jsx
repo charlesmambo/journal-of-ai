@@ -6,7 +6,8 @@ import { HiOutlineDocumentCheck } from "react-icons/hi2";
 import { BsSend } from "react-icons/bs";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
-
+import { useNavigate } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 const Subs = () => {
 const steps = [
   {
@@ -118,6 +119,7 @@ const [openIndex, setOpenIndex] = useState(0);
     },
   ];
 
+  const navigate = useNavigate();
   return (
     <div>
          <section className="submission-section">
@@ -283,12 +285,12 @@ const [openIndex, setOpenIndex] = useState(0);
           </p>
 
           <div className="sub-actions">
-          <button className="primary-btn">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0P0O4X9ykPt1DfrVAwyePaST4dhhTUwkqAwrTBBHxwsVTpQ/viewform?usp=publish-editor" className="primary-btn">
             Open submission form
             <IoIosArrowRoundForward className='primary-btn-icon'/>
-          </button>
+          </a>
 
-          <button className="secondary-btn">
+          <button className="secondary-btn" onClick={() => navigate("/guidelines")}>
             Read full guidelines
           </button>
           </div>
@@ -314,8 +316,10 @@ const [openIndex, setOpenIndex] = useState(0);
         </div>
 
         <div className="contact-link">
+          <NavLink to="/contact" className="contact-link">
           <span>Questions? Contact the editorial team</span>
           <IoIosArrowRoundForward className='primary-btn-icon'/>
+          </NavLink>
         </div>
       </div>
     </section>

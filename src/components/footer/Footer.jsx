@@ -2,7 +2,7 @@ import React from 'react';
 import '../footer/Footer.css';
 import { HiOutlineBookOpen } from "react-icons/hi2";
 import { MdOutlineMail } from "react-icons/md";
-
+import { NavLink } from 'react-router-dom';
 const Footer = () => {
   return (
      <footer className="footer">
@@ -10,12 +10,14 @@ const Footer = () => {
         
         {/* Left Section */}
         <div className="footer_left">
+          <NavLink to="/" className='logo-text'>
           <div className="footer_logo">
             <div className="logo_box">
               <HiOutlineBookOpen />
             </div>
             <h2>JAI-PTD</h2>
           </div>
+          </NavLink>
 
           <p className="footer_description">
             The Journal of AI-Powered Technology and Development
@@ -36,11 +38,31 @@ const Footer = () => {
           <h4>Quick Links</h4>
 
           <ul>
-            <li>About the Journal</li>
-            <li>Editorial Board</li>
-            <li>Archive</li>
-            <li>Submit Paper</li>
-            <li>Guidelines</li>
+            <li>
+              <NavLink to="/about">
+              About the Journal
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/editorial-board">
+              Editorial Board
+              </NavLink>
+              </li>
+            <li>
+              <NavLink to="/archive">
+              Archive
+              </NavLink>
+              </li>
+            <li>
+              <NavLink to="/submissions">
+              Submit Paper
+              </NavLink>
+              </li>
+            <li>
+              <NavLink to="/guidelines">
+              Guidelines
+              </NavLink>
+              </li>
           </ul>
         </div>
 

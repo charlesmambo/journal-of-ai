@@ -9,8 +9,8 @@ import { IoHardwareChipOutline } from "react-icons/io5";
 import { FiUsers } from "react-icons/fi";
 import { TbArrowBadgeDown } from "react-icons/tb";
 import { HiOutlineDocumentCheck } from "react-icons/hi2";
-
-
+import { useNavigate } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 const Home = () => {
 const data = [
   {
@@ -98,7 +98,7 @@ const pcards = [
       dark: true,
     },
   ];
-
+const navigate = useNavigate();
   return (
     <main>
         <section className="hero">
@@ -125,11 +125,13 @@ const pcards = [
 
         {/* Actions */}
         <div className="hero-actions">
-          <button className="btn primary">
+          
+          <button className="btn primary" onClick={() => navigate("/submission")}>
             Submit Paper <IoIosArrowRoundForward className='primary-btn-icon'/>
           </button>
 
-          <button className="btn secondary">
+
+          <button className="btn secondary" onClick={() => navigate("/archive")}>
             <IoBookOutline />
              Browse Articles
           </button>
@@ -205,10 +207,10 @@ const pcards = [
             governance and ethics with a deliberate focus on the African
             research landscape.
           </p>
-
-          <a href="/" className="read-more">
+          
+          <NavLink to="/about" className="read-more">
             Read More <IoIosArrowRoundForward className='primary-btn-icon'/>
-          </a>
+          </NavLink>
         </div>
 
         <div className="journal-right">
@@ -233,7 +235,7 @@ const pcards = [
           <p className="subtext">Volume 1 · Issue 1 — May 2026</p>
         </div>
 
-        <button className="archive-btn">
+        <button className="archive-btn" onClick={() => navigate("/archive")}>
           View archive <IoIosArrowRoundForward className='primary-btn-icon'/>
         </button>
       </div>

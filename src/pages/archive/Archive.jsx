@@ -152,17 +152,17 @@ const Archive = () => {
         {articles.map((article, index) => (
           <div className="card" key={index}>
             <div className="card-top">
-              <span className="category">{article.category}</span>
+              <span className="art-category">{article.category}</span>
               <span className="date">{article.date}</span>
             </div>
 
-            <h3 className="title">{article.title}</h3>
+            <h3>{article.title}</h3>
 
             <p className="authors">{article.authors}</p>
 
             <p className="description">{article.description}</p>
 
-            <div className="tags">
+            <div className="art-tags">
               {article.tags.map((tag, i) => (
                 <span className="tag" key={i}>
                   {tag}

@@ -77,14 +77,15 @@
   gap: 18px;
 }
 
-.footer_links li {
+.footer_links li a{
   color: var(--greyish-color);
   font-size: var(--primary-font-size);
   cursor: pointer;
   transition: 0.3s ease;
+  text-decoration: none;
 }
 
-.footer_links li:hover {
+.footer_links li a:hover {
   color: var(--gold-color);
   transform: translateX(4px);
 }
