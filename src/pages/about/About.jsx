@@ -67,12 +67,12 @@ const scopeItems = [
 ];
 
 const timelineData = [
-  { label: "Launch of journal website", value: "TBC" },
-  { label: "Call for Papers published", value: "TBC" },
-  { label: "Deadline for submission to inaugural issue", value: "TBC" },
-  { label: "Notification of review outcomes", value: "TBC" },
-  { label: "Revised paper submission deadline", value: "TBC" },
-  { label: "Expected online publication of inaugural issue", value: "TBC" },
+  { label: "Launch of journal website", value: "16 September 2026" },
+  { label: "Call for Papers published", value: "20 November 2026" },
+  { label: "Deadline for submission to inaugural issue", value: "22 January 2027" },
+  { label: "Notification of review outcomes", value: "22 April 2027" },
+  { label: "Revised paper submission deadline", value: "4 June 2027" },
+  { label: "Expected online publication of inaugural issue", value: "4 September 2027" },
 ];
   return (
     <div className='abt'>

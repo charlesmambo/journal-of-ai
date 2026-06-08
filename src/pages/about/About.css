@@ -234,21 +234,23 @@ strong {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #ece9e3c4;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .timeline-row:last-child {
   border-bottom: none;
-   margin-bottom: -0.5rem;
+   margin-bottom: 0.5rem;
 }
 
 .label {
   font-size: var(--primary-font-size);
+     margin-bottom: 0.5rem;
 }
 
 .value {
   font-weight: 500;
   color: var(--navblue);
+     margin-bottom: -0.5rem;
 }
 
 .footnote {
