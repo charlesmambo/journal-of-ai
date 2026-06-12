@@ -408,3 +408,45 @@
   line-height: 1.8;
   color: var(--grey-color);
 }
+@media (max-width: 768px){
+ .submission-section,
+ .steps-section {
+  padding: var(--mobile-section-padding);
+}
+.submission-title{
+  font-size: var(--nav-hero-title);
+} 
+.steps-grid {
+  width: unset !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.3rem;
+}
+.card{
+  width: 100% !important;
+}
+.sub-wrapper {
+  padding: var(--mobile-section-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  background-color: var(--light-brown-bg);
+}
+.submission-left {
+ width: 100%;
+}
+.sub-heading-line-wrapper h2,
+.content-block h2,
+.content-block h2,
+.requirements-section h2,
+.process-section h2 {
+  font-size: var(--mobile-section-title-size);
+}
+.submission-right {
+  width: 100%;
+}
+.contact-link {
+  margin-top: 10px;
+}
+}
