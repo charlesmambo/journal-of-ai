@@ -134,3 +134,29 @@
   color: var(--greyish-color);
   font-size: var(--primary-font-size);
 }
+
+@media (max-width: 768px){
+ .footer {
+  padding: var(--mobile-section-padding);
+} 
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.footer_left {
+  width: 100%;
+}
+.footer_bottom {
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.footer_bottom_links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--greyish-color);
+  font-size: var(--primary-font-size);
+}
+}
