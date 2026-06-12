@@ -91,3 +91,69 @@
 .submit-btn:hover {
   background-color: #162033;
 }
+.ham-icon{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.hamburger{
+  display: none;
+}
+.close{
+  color: red !important;
+}
+.open{
+  color: #162033;
+}
+.mobile-nav-links {
+  display: none;
+}
+
+.mobile-nav-links{
+  display: none;
+}
+
+@media (max-width: 768px){
+
+  .navbar {
+    padding: var(--mobile-navbar-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-links,
+  .submit-btn{
+    display: none;
+  }
+
+  .hamburger{
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-nav-links{
+    display: none; 
+    position: absolute;
+    top: 4.5rem;
+      left: 50%;
+  transform: translateX(-50%);
+    z-index: 20;
+    background-color: white;
+    padding: 1.3rem;
+    flex-direction: column;
+    width: 92%;
+    border-radius: 0.3rem;
+    align-items: center;
+  }
+
+  .mobile-nav-links.show{
+    display: flex; 
+  }
+  .nav-links a {
+  font-size: 1.1rem;
+}
+.mobile-submit-btn{
+  width: 80vw !important;
+  display: block;
+}
+}
