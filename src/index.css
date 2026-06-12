@@ -2,7 +2,9 @@
 :root {
  --text-color:red;
  --navbar-padding:1.2rem 10rem; 
- --section-padding:5rem 10rem; 
+ --section-padding:5rem 10rem;
+ --mobile-navbar-padding:1rem;
+ --mobile-section-padding: 3rem 1rem; 
 
  --navblue: #1e2a44;
  --grey-color: #7a7f87;
@@ -16,6 +18,7 @@
 
  --light-background:#f6f7f9;
  --section-title-size: 40px;
+ --mobile-section-title-size: 35px;
  --primary-font-size:1rem;
  --card-text-size:15px;
  --title-mb-gap:13px;
@@ -25,6 +28,7 @@
  --icon-size:1.3rem;
 
  --hero-title:4.4rem;
+ --nav-hero-title:3.8rem;
  --label-text:13px;
  --lg-gap:4rem;
  --h4-size:1.1rem;

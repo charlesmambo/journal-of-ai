@@ -168,3 +168,26 @@ textarea {
 .ct-btn:hover {
   opacity: 0.92;
 }
+@media (max-width: 768px){
+ .contact-section,
+ .ct-wrapper {
+  padding: var(--mobile-section-padding);
+} 
+.contact-title {
+  font-size: var(--nav-hero-title);
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.row {
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 16px;
+  align-items: start;
+}
+.form-card h2 {
+  font-size: var(--mobile-section-title-size);
+}
+}
