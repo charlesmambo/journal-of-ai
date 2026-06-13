@@ -115,3 +115,38 @@
 .edt-card{
     grid-template-columns: repeat(3, 1fr);
 }
+@media (max-width: 768px){
+   .ed-hero,
+   .team-section {
+  padding: var(--mobile-section-padding);
+} 
+.ed-container h2 {
+  font-size: var(--nav-hero-title);
+}
+.chief-card {
+  display: flex;
+  gap: 15px;
+  background: var(--navblue);
+  color: var(--white-color);
+  padding: 30px;
+  border-radius: 12px;
+  align-items:flex-start;
+  flex-direction: column;
+}
+.tm-header h2 {
+  font-size: var(--mobile-section-title-size);
+  margin: 8px 0 20px;
+}
+.meta {
+  line-height: 1.4;
+}
+.chief-content h3,
+.tm-header h2 {
+  font-size:var(--mobile-section-title-size);
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+}
