@@ -85,11 +85,9 @@ const Footer = () => {
         <p>© 2026 JAI-PTD. All rights reserved.</p>
 
         <div className="footer_bottom_links">
-          <span>ISSN pending</span>
-          <span>·</span>
-          <span>Open access</span>
-          <span>·</span>
-          <span>Peer-reviewed</span>
+          <span className='fbl'>ISSN pending <span>·</span></span>
+          <span className='fbl'>Open access <span>·</span></span>         
+          <span className='fbl'>Peer-reviewed</span>
         </div>
       </div>
     </footer>

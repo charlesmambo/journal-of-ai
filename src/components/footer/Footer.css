@@ -155,8 +155,14 @@
 .footer_bottom_links {
   display: flex;
   align-items: center;
-  gap: 16px;
-  color: var(--greyish-color);
-  font-size: var(--primary-font-size);
+  gap: 16px !important;
+  font-size: 1rem;
+  justify-content: space-between;
+}
+.fbl{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.9rem;
 }
 }
