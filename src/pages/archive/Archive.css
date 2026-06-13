@@ -174,11 +174,21 @@
   font-size: 0.8rem !important;
 }
 @media (max-width: 768px){
- .archive-hero {
+ .archive-hero,
+ .article-page,
+ .filter-bar {
   padding: var(--mobile-section-padding);
 } 
 .title {
   font-size: var(--nav-hero-title);
   line-height: 1;
+}
+.filter-bar {
+  gap: 25px;
+}
+.articles-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
 }
 }
