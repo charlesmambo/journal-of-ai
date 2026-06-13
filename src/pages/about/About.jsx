@@ -263,7 +263,7 @@ The journal and its hosting institution are committed to responsible handling of
         Synced with the inaugural Call for Papers.
       </p>
 
-      <div className="card">
+      <div className="card timeline-card">
         {timelineData.map((item, index) => (
           <div key={index} className="timeline-row">
             <span className="label">{item.label}</span>
