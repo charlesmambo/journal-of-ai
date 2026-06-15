@@ -75,7 +75,7 @@ const Footer = () => {
 
           <div className="footer_email">
             <MdOutlineMail />
-            <span>editor@jaiptd.ac.za</span>
+            <span>abayaga@sun.ac.za</span>
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ const articles = [
     title: "Predictive Analytics in Educational Outcomes: A Machine Learning Approach",
     description:
       "This study investigates the application of machine learning to forecast learner performance in multilingual African contexts, proposing a scalable model for early intervention.",
-    author: "A. Bayega et al.",
+    author: "A. Bayaga et al.",
   },
   {
     category: "GOVERNANCE",
@@ -126,7 +126,7 @@ const navigate = useNavigate();
         {/* Actions */}
         <div className="hero-actions">
           
-          <button className="btn primary" onClick={() => navigate("/submission")}>
+          <button className="btn primary" onClick={() => navigate("/submissions")}>
             Submit Paper <IoIosArrowRoundForward className='primary-btn-icon'/>
           </button>
 

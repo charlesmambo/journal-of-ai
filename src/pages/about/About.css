@@ -85,7 +85,9 @@
   width: 370px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
+  gap: 20px;
+    position: sticky;
+  top: 30px;
 }
 
 /* BLUE CARD */
