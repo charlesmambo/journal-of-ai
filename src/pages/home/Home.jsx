@@ -11,6 +11,11 @@ import { TbArrowBadgeDown } from "react-icons/tb";
 import { HiOutlineDocumentCheck } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
+import SP from '../../assets/sp2.png';
+import UO from '../../assets/uo.png';
+import UTC from '../../assets/uc.png';
+import ST from '../../assets/stn.png';
+
 const Home = () => {
 const data = [
   {
@@ -260,26 +265,39 @@ const navigate = useNavigate();
 
      <section className="partners-section">
       <div className="container">
-        <p className="tagline">PUBLISHED IN PARTNERSHIP WITH</p>
+        <p className="tagline" style={{ textTransform: "uppercase" }}>Official Publication Partner</p>
 
         <h2 className="main-heading">
-          Backed by leading South African
-          <br />
-          institutions
+         Publication Notice
         </h2>
 
-        <div className="cards-grid">
-          {pcards.map((card, index) => (
-            <div
-              key={index}
-              className={`card ${card.dark ? 'dark-card' : ''}`}
-            >
-              <h3>{card.title}</h3>
-              <p>{card.subtitle}</p>
-            </div>
-          ))}
-        </div>
+                 <div className="submission-card sp-card">
+            <p> <b>Publication Notice:</b> Accepted and presented papers are expected to be published in a <b>Springer publication </b>, subject to peer review, editorial checks, and compliance with the publisher’s manuscript preparation requirements.</p>
+          </div>
+          <div className="sp-img-container">
+            <img src={SP} alt="" />
+          </div>
       </div>
+
+      
+    </section>
+
+        <section className="submission-section sp-container uo-container">
+      <div className="submission-header sp-header">
+        <span className="section-label sp-label" style={{ textTransform: "uppercase" }}></span>
+        <h2 className='oc' style={{ width: "100%" }}>Our Partners & Co-organisers</h2>
+      </div>
+      <div className="uo-img-container">
+          <div className="uo-container">
+            <img src={UO} alt="" />
+          </div>
+          <div className="uo-container">
+            <img src={UTC} alt="" />
+          </div>
+          <div className="uo-container">
+            <img src={ST} alt="" />
+          </div>
+          </div>
     </section>
 
     </main>
